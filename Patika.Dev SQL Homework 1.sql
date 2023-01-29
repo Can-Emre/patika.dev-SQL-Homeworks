@@ -15,4 +15,4 @@ WHERE first_name = 'Mary';
 
 -- 5. Datas in all columns in the film table whose length is NOT greater than 50, but whose rental_rate is NOT 2.99 or 4.99 are sorted.
 SELECT * FROM film
-WHERE (length < 50 OR length = 50) AND (rental_rate != 2.99 OR rental_rate = 4.99);
+WHERE length <= 50 AND (rental_rate != 2.99 OR rental_rate = 4.99);
