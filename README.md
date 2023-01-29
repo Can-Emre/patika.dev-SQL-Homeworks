@@ -1,2 +1,2 @@
 # patika.dev-SQL-Homeworks
-Homework submissions for SQL course
+Homework submissions for patika.dev SQL course
